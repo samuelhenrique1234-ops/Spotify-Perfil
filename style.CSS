@@ -14,8 +14,8 @@ body {
 }
 
 .profile-pic {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #333;
     display: flex;
@@ -44,4 +44,30 @@ body {
 .stats {
     color: #b3b3b3;
     font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background: none;
+    border: 1px solid #535353;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: default;
+}
+
+.btn-edit {
+    border-color: #727272;
+}
+
+img {
+    width: 30px;
+    height: 30px;
 }
