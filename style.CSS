@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    padding: 15px;
 }
 
 .profile-pic {
@@ -49,16 +50,25 @@ body {
 
 .profile-actions {
     display: flex;
-    gap: 10px;
-    margin: 10px;
+    gap: 4px;
+    padding: 10px;
 }
 
 .btn {
     background: none;
     border: 1px solid #535353;
     color: white;
-    padding: 5px 15px;
+    padding:2px 15px;
     border-radius: 20px;
+    font-size: 12px;
+    cursor: default;
+}
+
+.bnt-c {
+    border: none;
+    color: rgb(167, 167, 167);
+    background: none;
+    padding: 5px 10px;
     font-size: 12px;
     cursor: default;
 }
@@ -67,7 +77,7 @@ body {
     border-color: #727272;
 }
 
-img {
+.profile-actions img {
     width: 30px;
     height: 30px;
 }
