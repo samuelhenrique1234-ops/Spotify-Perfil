@@ -7,6 +7,11 @@ body {
     margin: 0 auto;
 }
 
+#button-back img {
+    width: 30px;
+    height: 30px;
+}
+
 .profile-container {
     display: flex;
     align-items: center;
@@ -50,34 +55,41 @@ body {
 
 .profile-actions {
     display: flex;
-    gap: 4px;
-    padding: 10px;
+    gap: 1px;
+    padding: 3px;
 }
 
 .btn {
     background: none;
     border: 1px solid #535353;
     color: white;
-    padding:2px 15px;
+    padding:2px 18px;
     border-radius: 20px;
     font-size: 12px;
-    cursor: default;
-}
-
-.bnt-c {
-    border: none;
-    color: rgb(167, 167, 167);
-    background: none;
-    padding: 5px 10px;
-    font-size: 12px;
-    cursor: default;
 }
 
 .btn-edit {
     border-color: #727272;
 }
 
-.profile-actions img {
+#bnt-c {
+    border: none;
+    color: rgb(167, 167, 167);
+    background: none;
+    padding: 2px 18px;
+    font-size: 10px;
+}
+
+#bnt-b {
+    border: none;
+    background: none;
+    padding: 2px 18px;
+    font-size: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#bnt-b img {
     width: 30px;
     height: 30px;
 }
