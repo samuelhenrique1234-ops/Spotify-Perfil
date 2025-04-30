@@ -104,10 +104,10 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #282828;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
+    
 
 .playlist:last-child {
     border-bottom: none;
